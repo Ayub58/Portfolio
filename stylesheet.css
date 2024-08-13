@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    background-color: #718355;
+  
     color: #333;
     margin: 0;
     padding: 0;
@@ -100,4 +100,48 @@ h2, b {
     align-items: center;
     align-self: center;
     align-content: center;
+}
+/*dark mode styling*/
+
+body.light-mode{
+    background-color: black !important
+    
+}
+body.dark-mode{
+    background-color: #333 !important;
+    color: white;
+}
+body.dark-mode .custom-navbar{
+    background-color: #333
+    
+}
+body.dark-mode .intro-section{
+    background-color: #333
+}
+body.dark-mode .about-section{
+    background-color: #333;
+}
+body.dark-mode .project-section{
+    background-color: #333;
+}
+body.dark-mode .blog-section{
+    background-color: #333;
+}
+body.dark-mode .contact-section{
+    background: #999;
+}
+body.dark-mode .footer{
+    background-color: #333;
+}
+body.dark-mode .btn-custom{
+    background-color: #444;
+}
+body.dark-mode .btn-custom:hover{
+    background-color: #666;
+}
+body.dark-mode .social-media a{
+    color: #ddd;
+}
+body.dark-mode .social-media a:hover{
+    color:#bbb
 }

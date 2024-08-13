@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Light/Dark mode  implementation",
+        "date": "2024-08-12",
+        "content":"The first step was creating a button to toggle between dark and light mode. The button should be easy to access on all pages so putting it on the header made the most sense. Next was writting the script that will switch the themes. When the button is clicked the theme is switched by toggling a class on the <body> element. After that the text on the button switches indicating which theme will be toggled when pressed. I added CSS styles to define what elements would look like in dark mode. The styles are tied to a class toggled by the JS function to make the apperance change seamlessly when switched. With the dark/light mode added the website can allow visitors to choose the visuals that they prefer."
+        
+    },
+    {
+        "title":"Dynamic Blog Section",
+        "date":"2024-08-12",
+        "content":"The first step was to make an HTML file dedicated to the blog section. This page includes a container where the posts will be displayed. What makes this blog dynamic is instead of the posts being hardcoded into the HTML, it is dynamically loaded in using a script. I store the blog posts in a JSON file to keep the content seperate from the structure of the website. The posts in the JSON contain key details such as the title, date, and content. I wrote a javascript to fetch the JSON file and dynamically create HTML elements for each blog post. The script hadled iterating over the data, creating elements for the title, date, and content, and appending them to the blog page. This format makes it easy to make and update posts since all updates would only need to be made in the JSON file. This method of loading blog pages from a JSON file makes content management easier. Seperating the data makes it easier to maintain and update the blog in the future without needing to touch the HTML structure"
+    }
+
+]
